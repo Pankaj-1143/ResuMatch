@@ -1,29 +1,31 @@
-# Python virtual environment
-venv/
-.venv/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
 
-# Environment variables
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
 .env
 
 # VS Code
 .vscode/
 
-# Streamlit secrets (keep config.toml)
-.streamlit/secrets.toml
+# Streamlit Secrets
+.streamlit/config.toml
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build files
+# Build
 build/
 dist/
-*.egg-info/
+
+# OS Files
+.DS_Store
+Thumbs.db
